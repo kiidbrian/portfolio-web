@@ -1,0 +1,151 @@
+
+/*===============================================
+            Smart phone and tablets
+===============================================*/
+
+@media(max-width:767px)
+{
+    .sec_title span {
+        display: none;
+    }
+
+    /*-- home --*/
+    .navbar-default {
+        padding-top: 10px;
+    }
+
+    .nav_scroll {
+        padding-top: 0;
+    }
+
+    .navbar-nav {
+        margin: 0;
+    }
+
+    .navbar-brand,
+    .nav_scroll .navbar-brand {
+        padding: 15px 15px;
+    }
+
+    .navbar-default .navbar-toggle {
+        padding: 0;
+        margin-top: 18px;
+        border: none;
+    }
+
+    .navbar-default .navbar-collapse, 
+    .navbar-default .navbar-form {
+        border: none;
+        background-color: #fff;
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.09);
+    }
+
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus,
+    .navbar-default .navbar-nav > li > a,
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover, 
+    .navbar-default .navbar-nav > .active > a:focus {
+            color: #000;
+    }
+
+    .home nav.navbar ul.nav > li {
+        padding: 20px;
+        text-align: center;
+        border-top: 1px solid rgba(153, 153, 153, 0.3);
+    }
+
+    .navbar-default .navbar-nav a:after,
+    footer .info span:after {
+        display: none;
+    }
+
+    /*-- about --*/
+    .about .item2,
+    .fun_facts .content,
+    .footer-info .item {
+        margin-top: 40px;
+    }
+
+    .fun_facts .item:first-of-type .content,
+    .footer-info .item:first-of-type {
+        margin-top: 0;
+    }
+
+    /*-- blog --*/
+    .blog .item {
+        margin-bottom: 40px;
+    }
+
+    .blog .item:last-of-type {
+        margin-bottom: 0;
+    }
+
+}
+
+@media(max-width:600px)
+{
+
+    .sec_title p {
+        font-size: 70px;
+        top: -63px;
+    }
+
+    .sec_title h2 {
+        font-size: 27px;
+    }
+
+}
+
+@media(max-width:500px)
+{
+
+    .sec_title p {
+        top: -35px;
+        font-size: 44px;
+    }
+
+    .sec_title h2 {
+        font-size: 25px;
+    }
+
+    .main_img img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .blog .item {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .contact .form-control {
+        width: 100%;
+    }
+
+}
+
+
+/*===============================================
+            Small screen
+===============================================*/
+
+@media(min-width:768px) and (max-width:991px)
+{
+
+    /*-- about --*/
+    .about .item2 {
+        margin-top: 40px;
+    }
+
+    /*-- blog --*/
+    .blog .item {
+        margin-bottom: 40px;
+    }
+
+    .blog .item:last-of-type {
+        margin-bottom: 0;
+    }
+
+}
