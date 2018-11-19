@@ -4,7 +4,7 @@ import React from 'react';
 const HomeSection = (props) => {
     return(
         <section className="home " id="home">
-          <div className="full_height bg_image" style={{backgroundImage: `url('assets/images/me-10.jpg')` }} data-stellar-background-ratio="0.7">
+          <div className="full_height bg_image" style={{backgroundImage: `url('assets/images/notebook.jpg')` }} data-stellar-background-ratio="0.7">
               <div id="particles-js"></div>
               
               <nav className="navbar navbar-default navbar-fixed-top">
@@ -17,7 +17,7 @@ const HomeSection = (props) => {
                               <span className="icon-bar"></span>
                           </button>
 
-                          <a className="navbar-brand" href="index_1.html#"><span>TheKuulkiid</span></a>
+                          <a className="navbar-brand" href="/"><span>TheKuulkiid</span></a>
 
                       </div>
                       <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
