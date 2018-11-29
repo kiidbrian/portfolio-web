@@ -4,7 +4,7 @@ import React from 'react';
 const HomeSection = (props) => {
     return(
         <section className="home " id="home">
-          <div className="full_height bg_image" style={{backgroundImage: `url('assets/images/notebook.jpg')` }} data-stellar-background-ratio="0.7">
+          <div className="full_height bg_image" style={{backgroundImage: `url('assets/images/me-new.jpg')` }} data-stellar-background-ratio="0.7">
               <div id="particles-js"></div>
               
               <nav className="navbar navbar-default navbar-fixed-top">
