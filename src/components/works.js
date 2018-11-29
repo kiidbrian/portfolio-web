@@ -1,0 +1,242 @@
+import React from 'react';
+
+const PortfolioSection = (props) => {
+    return(
+        <section className="portfolio padding-top-90 padding-bottom-60 primary_bg" id="portfolio">
+            <div className="container">
+            <div className="sec_title">
+                <p>portfolio</p>
+                <h2>recent work</h2>
+            </div>
+            <div className="portf-filter text-center">
+                <ul className="list-unstyled ul-filter">
+                    <li data-filter="*" className="active_filter">all</li>
+                    <li data-filter=".media">media</li>
+                    <li data-filter=".coding">coding</li>
+                    <li data-filter=".design">design</li>
+                </ul>
+            </div>
+            <div className="row grid">
+                
+                <div className="col-xs-12 col-sm-6 col-md-4 grid-item grid-sizer design">
+                    <div className="box">
+                        <div className="my__img">
+                            <img src="assets/images/portfolio/work-1.jpg" alt='' />
+                        </div>
+                        <div className="boxContent project_popup">
+                            <a className="popup-with-zoom-anim" href="index_1.html#image_popup">
+                                <div className="display-table">
+                                    <div className="display-table-cell">
+                                        <span className="post">Design</span>
+                                        <h3 className="title">modal one</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="image_popup" className="zoom-anim-dialog mfp-hide">
+                    <div className="display-table">
+                        <div className="display-table-cell">
+                            <div className="row">
+                                <div className="col-sm-8 col-md-offset-2">
+                                    <img src="assets/images/portfolio/work-4.jpg" alt="" className="margin-bottom-30" />
+                                    <h3>Creative Design</h3>
+                                    <ul className="list-unstyled project_info">
+                                        <li><span>Client :</span>Envato</li>
+                                        <li><span>Date :</span>March 19, 2017</li>
+                                        <li><span>Skills :</span>HTML5, JS, CSS3</li>
+                                    </ul>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                    <a href="index_1.html#" className="demo">Visit website</a>
+
+                                    <div id="MySlider" className="carousel slide margin-bottom-30 margin-top-50" data-ride="carousel">
+                                        <ol className="carousel-indicators">
+                                            <li data-target="#MySlider" data-slide-to="0" className="active"></li>
+                                            <li data-target="#MySlider" data-slide-to="1"></li>
+                                            <li data-target="#MySlider" data-slide-to="2"></li>
+                                        </ol>
+
+                                        <div className="carousel-inner" role="listbox">
+                                            <div className="item active">
+                                                <img src="assets/images/portfolio/work-2.jpg" alt="" />
+                                            </div>
+
+                                            <div className="item">
+                                                <img src="assets/images/portfolio/work-3.jpg" alt="" />
+                                            </div>
+
+                                            <div className="item">
+                                                <img src="assets/images/portfolio/work-4.jpg" alt="" />
+                                            </div>
+                                        </div>
+
+                                        <a className="left carousel-control" href="index_1.html#MySlider" role="button" data-slide="prev">
+                                            <span className="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                            <span className="sr-only">Previous</span>
+                                        </a>
+                                        <a className="right carousel-control" href="index_1.html#MySlider" role="button" data-slide="next">
+                                            <span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                            <span className="sr-only">Next</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div className="col-xs-12 col-sm-6 col-md-4 grid-item coding">
+                    <div className="box">
+                        <div className="my__img">
+                            <img src="assets/images/portfolio/work-2.jpg" alt='' />
+                        </div>
+                        <div className="boxContent project_popup">
+                            <a className="popup-with-zoom-anim" href="index_1.html#slider_popup">
+                                <div className="display-table">
+                                    <div className="display-table-cell">
+                                        <span className="post">coding</span>
+                                        <h3 className="title">modal two</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div id="slider_popup" className="zoom-anim-dialog mfp-hide">
+                    <div className="display-table">
+                        <div className="display-table-cell">
+                            <div className="row">
+                                <div className="col-sm-6">
+
+                                    <div id="MySlider2" className="carousel slide margin-bottom-30" data-ride="carousel">
+                                        <ol className="carousel-indicators">
+                                            <li data-target="#MySlider2" data-slide-to="0" className="active"></li>
+                                            <li data-target="#MySlider2" data-slide-to="1"></li>
+                                            <li data-target="#MySlider2" data-slide-to="2"></li>
+                                        </ol>
+
+                                        <div className="carousel-inner" role="listbox">
+                                            <div className="item active">
+                                                <img src="assets/images/portfolio/work-2.jpg" alt="" />
+                                            </div>
+
+                                            <div className="item">
+                                                <img src="assets/images/portfolio/work-3.jpg" alt="" />
+                                            </div>
+
+                                            <div className="item">
+                                                <img src="assets/images/portfolio/work-4.jpg" alt="" />
+                                            </div>
+                                        </div>
+
+                                        <a className="left carousel-control" href="index_1.html#MySlider2" role="button" data-slide="prev">
+                                            <span className="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                            <span className="sr-only">Previous</span>
+                                        </a>
+                                        <a className="right carousel-control" href="index_1.html#MySlider2" role="button" data-slide="next">
+                                            <span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                            <span className="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+                                <div className="col-sm-6">
+                                    <h3>Creative Design</h3>
+                                    <ul className="list-unstyled project_info">
+                                        <li><span>Client :</span>Envato</li>
+                                        <li><span>Date :</span>March 19, 2017</li>
+                                        <li><span>Skills :</span>HTML5, JS, CSS3</li>
+                                    </ul>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                    <a href="index_1.html#" className="demo">Visit website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div className="col-xs-12 col-sm-6 col-md-4 grid-item design">
+                    <div className="box">
+                        <div className="my_img" data-mfp-src="assets/images/portfolio/work-3.jpg">
+                            <img src="assets/images/portfolio/work-3.jpg" alt=''/>
+                            <div className="boxContent">
+                                <div className="display-table">
+                                    <div className="display-table-cell">
+                                        <span className="post">design</span>
+                                        <h3 className="title">Image Overlay</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div className="col-xs-12 col-sm-6 col-md-4 grid-item media">
+                    <div className="box">
+                        <div className="my__img">
+                            <img src="assets/images/portfolio/work-4.jpg" alt='' />
+                        </div>
+                        <div className="boxContent video-popup">
+                            <a href="https://www.youtube.com/watch?v=hpeYWdkUtcE">
+                                <div className="display-table">
+                                    <div className="display-table-cell">
+                                        <span className="post">media</span>
+                                        <h3 className="title">Youtube Video</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div className="col-xs-12 col-sm-6 col-md-4 grid-item coding">
+                    <div className="box">
+                        <div className="my__img">
+                            <img src="assets/images/portfolio/work-5.jpg" alt=''/>
+                        </div>
+                        <div className="boxContent video-popup">
+                            <a href="https://vimeo.com/45830194">
+                                <div className="display-table">
+                                    <div className="display-table-cell">
+                                        <span className="post">coding</span>
+                                        <h3 className="title">Vimeo Video</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div className="col-xs-12 col-sm-6 col-md-4 grid-item media">
+                    <div className="box">
+                        <div className="my__img">
+                            <img src="assets/images/portfolio/work-6.jpg" alt='' />
+                        </div>
+                        <div className="boxContent">
+                            <a href="http://www.google.com" target="_blank">
+                                <div className="display-table">
+                                    <div className="display-table-cell">
+                                        <span className="post">media</span>
+                                        <h3 className="title">Open website</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section> 
+    )
+};
+
+export default PortfolioSection;

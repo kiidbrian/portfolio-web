@@ -35,12 +35,6 @@ const HomeSection = (props) => {
                                   <a href="index_1.html#portfolio" className="smooth_scroll">Portfolio</a>
                               </li>
                               <li>
-                                  <a href="index_1.html#testimonials" className="smooth_scroll">Testimonials</a>
-                              </li>
-                              <li>
-                                  <a href="index_1.html#blog" className="smooth_scroll">Blog</a>
-                              </li>
-                              <li>
                                   <a href="index_1.html#contact" className="smooth_scroll">Contact</a>
                               </li>
                           </ul>
