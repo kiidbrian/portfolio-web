@@ -11,12 +11,48 @@ const PortfolioSection = (props) => {
             <div className="portf-filter text-center">
                 <ul className="list-unstyled ul-filter">
                     <li data-filter="*" className="active_filter">all</li>
-                    <li data-filter=".media">media</li>
-                    <li data-filter=".coding">coding</li>
-                    <li data-filter=".design">design</li>
+                    <li data-filter=".integration">integrations</li>
+                    <li data-filter=".coding">development</li>
+                    <li data-filter=".consulting">consulting</li>
                 </ul>
             </div>
             <div className="row grid">
+
+                <div className="col-xs-12 col-sm-6 col-md-4 grid-item coding">
+                    <div className="box">
+                        <div className="my__img">
+                            <img src="assets/images/portfolio/redd.png" alt='' />
+                        </div>
+                        <div className="boxContent">
+                            <a href="https://www.readeverydayinc.org" target="_blank">
+                                <div className="display-table">
+                                    <div className="display-table-cell">
+                                        <span className="post">coding</span>
+                                        <h3 className="title">Red Everyday Inc</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-xs-12 col-sm-6 col-md-4 grid-item coding">
+                    <div className="box">
+                        <div className="my__img">
+                            <img src="assets/images/portfolio/logo.png" alt=''/>
+                        </div>
+                        <div className="boxContent">
+                            <a href="http://www.drinkappgh.com/en/" target="_blank">
+                                <div className="display-table">
+                                    <div className="display-table-cell">
+                                        <span className="post">coding</span>
+                                        <h3 className="title">Drink App</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 
                 <div className="col-xs-12 col-sm-6 col-md-4 grid-item grid-sizer design">
                     <div className="box">
@@ -27,8 +63,8 @@ const PortfolioSection = (props) => {
                             <a className="popup-with-zoom-anim" href="index_1.html#image_popup">
                                 <div className="display-table">
                                     <div className="display-table-cell">
-                                        <span className="post">Design</span>
-                                        <h3 className="title">modal one</h3>
+                                        <span className="post">coding</span>
+                                        <h3 className="title">TV XYZ Website</h3>
                                     </div>
                                 </div>
                             </a>
@@ -93,14 +129,14 @@ const PortfolioSection = (props) => {
                 <div className="col-xs-12 col-sm-6 col-md-4 grid-item coding">
                     <div className="box">
                         <div className="my__img">
-                            <img src="assets/images/portfolio/work-2.jpg" alt='' />
+                            <img src="assets/images/portfolio/work-4.jpg" alt='' />
                         </div>
-                        <div className="boxContent project_popup">
-                            <a className="popup-with-zoom-anim" href="index_1.html#slider_popup">
+                        <div className="boxContent">
+                            <a href="https://hubtel.com/store" target="_blank">
                                 <div className="display-table">
                                     <div className="display-table-cell">
                                         <span className="post">coding</span>
-                                        <h3 className="title">modal two</h3>
+                                        <h3 className="title">Webstore</h3>
                                     </div>
                                 </div>
                             </a>
@@ -170,8 +206,8 @@ const PortfolioSection = (props) => {
                             <div className="boxContent">
                                 <div className="display-table">
                                     <div className="display-table-cell">
-                                        <span className="post">design</span>
-                                        <h3 className="title">Image Overlay</h3>
+                                        <span className="post">Training</span>
+                                        <h3 className="title">Fidelity Bank</h3>
                                     </div>
                                 </div>
                             </div>
@@ -188,8 +224,8 @@ const PortfolioSection = (props) => {
                             <a href="https://www.youtube.com/watch?v=hpeYWdkUtcE">
                                 <div className="display-table">
                                     <div className="display-table-cell">
-                                        <span className="post">media</span>
-                                        <h3 className="title">Youtube Video</h3>
+                                        <span className="post">Training</span>
+                                        <h3 className="title">YaaW</h3>
                                     </div>
                                 </div>
                             </a>
@@ -197,42 +233,7 @@ const PortfolioSection = (props) => {
                     </div>
                 </div>
                 
-                <div className="col-xs-12 col-sm-6 col-md-4 grid-item coding">
-                    <div className="box">
-                        <div className="my__img">
-                            <img src="assets/images/portfolio/work-5.jpg" alt=''/>
-                        </div>
-                        <div className="boxContent video-popup">
-                            <a href="https://vimeo.com/45830194">
-                                <div className="display-table">
-                                    <div className="display-table-cell">
-                                        <span className="post">coding</span>
-                                        <h3 className="title">Vimeo Video</h3>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
                 
-
-                <div className="col-xs-12 col-sm-6 col-md-4 grid-item media">
-                    <div className="box">
-                        <div className="my__img">
-                            <img src="assets/images/portfolio/work-6.jpg" alt='' />
-                        </div>
-                        <div className="boxContent">
-                            <a href="http://www.google.com" target="_blank">
-                                <div className="display-table">
-                                    <div className="display-table-cell">
-                                        <span className="post">media</span>
-                                        <h3 className="title">Open website</h3>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
             </div>
             </div>
         </section> 
