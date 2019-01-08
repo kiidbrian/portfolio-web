@@ -12,7 +12,7 @@ const FooterSection = (props) => {
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1">
                             <div class="contact_form">
-                                <form action="https://mazen-demo.netlify.com/send.php" method="post">
+                                <form name="contact" method="post" netlify>
                                     <input placeholder="Name" name="name" type="text" class="form-control"/>
                                     <input placeholder="Email" name="email" type="email" class="form-control"/>
                                     <textarea placeholder="Message" name="message" class="form-control"></textarea>
