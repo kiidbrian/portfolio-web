@@ -11,15 +11,14 @@ const AboutSection = (props) => {
                       <div className="more-about-me">
                           <div className="follow">
                               <span>Follow Me</span>
-                              <a href="https://www.facebook.com/devbrian">Facebook</a>
-                              <a href="https://www.twitter.com/kiid_brian">Twitter</a>
-                              <a href="https://www.instagram.com/stagedforgreatness/?hl=en">Instagram</a>
+                              <a href="https://www.facebook.com/devbrian" target="_blank">Facebook</a>
+                              <a href="https://www.twitter.com/kiid_brian" target="_blank">Twitter</a>
+                              <a href="https://www.instagram.com/stagedforgreatness/?hl=en" target="_blank">Instagram</a>
                           </div>
                           <div className="hire">
                               <span>Hire Me</span>
-                              <a href="https://www.upwork.com/o/profiles/users/_~0194e6133cef8818cf/">UpWork</a>
-                              <a href="#">Fiver</a>
-                              <a href="#">Freelancer</a>
+                              <a href="https://www.upwork.com/o/profiles/users/_~0194e6133cef8818cf/" target="_blank">UpWork</a>
+                              <a href="https://www.github.com/kiidbrian" target="_blank">Github</a>
                           </div>
                           <div className="contact-me">
                               <span>Mail Me</span>
