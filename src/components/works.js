@@ -21,7 +21,7 @@ const PortfolioSection = (props) => {
                 <div className="col-xs-12 col-sm-6 col-md-4 grid-item coding">
                     <div className="box">
                         <div className="my__img">
-                            <img src="assets/images/portfolio/redd.png" alt='' />
+                            <img src="assets/images/portfolio/red.png" alt='' />
                         </div>
                         <div className="boxContent">
                             <a href="https://www.readeverydayinc.org" target="_blank">
@@ -57,7 +57,7 @@ const PortfolioSection = (props) => {
                 <div className="col-xs-12 col-sm-6 col-md-4 grid-item grid-sizer design">
                     <div className="box">
                         <div className="my__img">
-                            <img src="assets/images/portfolio/work-1.jpg" alt='' />
+                            <img src="assets/images/portfolio/xyzonline.png" alt='' />
                         </div>
                         <div className="boxContent project_popup">
                             <a className="popup-with-zoom-anim" href="index_1.html#image_popup">
@@ -129,7 +129,7 @@ const PortfolioSection = (props) => {
                 <div className="col-xs-12 col-sm-6 col-md-4 grid-item coding">
                     <div className="box">
                         <div className="my__img">
-                            <img src="assets/images/portfolio/work-4.jpg" alt='' />
+                            <img src="assets/images/portfolio/hubtelimg.png" alt='' />
                         </div>
                         <div className="boxContent">
                             <a href="https://hubtel.com/store" target="_blank">
