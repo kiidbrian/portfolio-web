@@ -222,13 +222,6 @@ $(function () {
         }
         
         var data_string = $('.contact form').serialize();
-        
-
-        var $form = $(this);
-        console.log($form);
-        $.post($form.attr("action"), $form.serialize()).then(function() {
-            alert("Thank you!");
-        });
     
         // $.ajax({
         //     type: "POST",
@@ -241,8 +234,7 @@ $(function () {
         //         } else {
         //             $('.msg_error').fadeIn('slow');
         //         }
-        //     }
-            
+        //     } 
         // });
         
         return false;
