@@ -122,8 +122,9 @@ class FooterSection extends React.Component {
             }]
         }
         let fetchHeaders  = {
-            "Authorization": "Bearer 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",
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': 'http://localhost:3000',
+            'Access-Control-Allow-Credentials': 'true'
         }
         let fetchData = {
             method: 'POST',
