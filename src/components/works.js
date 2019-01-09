@@ -13,7 +13,7 @@ const PortfolioSection = (props) => {
                     <li data-filter="*" className="active_filter">all</li>
                     <li data-filter=".integration">integrations</li>
                     <li data-filter=".coding">development</li>
-                    <li data-filter=".consulting">consulting</li>
+                    <li data-filter=".training">training</li>
                 </ul>
             </div>
             <div className="row grid">
@@ -39,7 +39,7 @@ const PortfolioSection = (props) => {
                 <div className="col-xs-12 col-sm-6 col-md-4 grid-item coding">
                     <div className="box">
                         <div className="my__img">
-                            <img src="assets/images/portfolio/logo.png" alt=''/>
+                            <img src="assets/images/portfolio/drnk.png" alt=''/>
                         </div>
                         <div className="boxContent">
                             <a href="http://www.drinkappgh.com/en/" target="_blank" rel="noopener noreferrer">
@@ -53,14 +53,14 @@ const PortfolioSection = (props) => {
                         </div>
                     </div>
                 </div>
-                
-                <div className="col-xs-12 col-sm-6 col-md-4 grid-item grid-sizer design">
+
+                <div className="col-xs-12 col-sm-6 col-md-4 grid-item grid-sizer coding">
                     <div className="box">
                         <div className="my__img">
-                            <img src="assets/images/portfolio/xyzonline.png" alt='' />
+                            <img src="assets/images/portfolio/xyz.png" alt='' />
                         </div>
-                        <div className="boxContent project_popup">
-                            <a className="popup-with-zoom-anim" href="index_1.html#image_popup">
+                        <div className="boxContent">
+                            <a href="http://www.myxyzonline.com/" target="_blank" rel="noopener noreferrer">
                                 <div className="display-table">
                                     <div className="display-table-cell">
                                         <span className="post">coding</span>
@@ -129,7 +129,7 @@ const PortfolioSection = (props) => {
                 <div className="col-xs-12 col-sm-6 col-md-4 grid-item coding">
                     <div className="box">
                         <div className="my__img">
-                            <img src="assets/images/portfolio/hubtelimg.png" alt='' />
+                            <img src="assets/images/portfolio/hubtel.png" alt='' />
                         </div>
                         <div className="boxContent">
                             <a href="https://hubtel.com/store" target="_blank" rel="noopener noreferrer">
@@ -199,10 +199,10 @@ const PortfolioSection = (props) => {
                     </div>
                 </div>
                 
-                <div className="col-xs-12 col-sm-6 col-md-4 grid-item design">
+                <div className="col-xs-12 col-sm-6 col-md-4 grid-item training">
                     <div className="box">
-                        <div className="my_img" data-mfp-src="assets/images/portfolio/work-3.jpg">
-                            <img src="assets/images/portfolio/work-3.jpg" alt=''/>
+                        <div className="my_img" data-mfp-src="assets/images/portfolio/fidelity.png">
+                            <img src="assets/images/portfolio/fidelity.png" alt=''/>
                             <div className="boxContent">
                                 <div className="display-table">
                                     <div className="display-table-cell">
@@ -215,10 +215,10 @@ const PortfolioSection = (props) => {
                     </div>
                 </div>
                 
-                <div className="col-xs-12 col-sm-6 col-md-4 grid-item media">
+                <div className="col-xs-12 col-sm-6 col-md-4 grid-item training">
                     <div className="box">
                         <div className="my__img">
-                            <img src="assets/images/portfolio/work-4.jpg" alt='' />
+                            <img src="assets/images/portfolio/yaaw.png" alt='' />
                         </div>
                         <div className="boxContent video-popup">
                             <a href="https://www.youtube.com/watch?v=hpeYWdkUtcE">
@@ -233,6 +233,21 @@ const PortfolioSection = (props) => {
                     </div>
                 </div>
                 
+                <div className="col-xs-12 col-sm-6 col-md-4 grid-item integration">
+                    <div className="box">
+                        <div className="my_img" data-mfp-src="assets/images/portfolio/africabets.png">
+                            <img src="assets/images/portfolio/africabets.png" alt=''/>
+                            <div className="boxContent">
+                                <div className="display-table">
+                                    <div className="display-table-cell">
+                                        <span className="post">Integrations</span>
+                                        <h3 className="title">AfricaBets</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
             </div>
             </div>
