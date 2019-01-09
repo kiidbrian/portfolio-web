@@ -24,7 +24,7 @@ const PortfolioSection = (props) => {
                             <img src="assets/images/portfolio/red.png" alt='' />
                         </div>
                         <div className="boxContent">
-                            <a href="https://www.readeverydayinc.org" target="_blank">
+                            <a href="https://www.readeverydayinc.org" target="_blank" rel="noopener noreferrer">
                                 <div className="display-table">
                                     <div className="display-table-cell">
                                         <span className="post">coding</span>
@@ -42,7 +42,7 @@ const PortfolioSection = (props) => {
                             <img src="assets/images/portfolio/logo.png" alt=''/>
                         </div>
                         <div className="boxContent">
-                            <a href="http://www.drinkappgh.com/en/" target="_blank">
+                            <a href="http://www.drinkappgh.com/en/" target="_blank" rel="noopener noreferrer">
                                 <div className="display-table">
                                     <div className="display-table-cell">
                                         <span className="post">coding</span>
@@ -132,7 +132,7 @@ const PortfolioSection = (props) => {
                             <img src="assets/images/portfolio/hubtelimg.png" alt='' />
                         </div>
                         <div className="boxContent">
-                            <a href="https://hubtel.com/store" target="_blank">
+                            <a href="https://hubtel.com/store" target="_blank" rel="noopener noreferrer">
                                 <div className="display-table">
                                     <div className="display-table-cell">
                                         <span className="post">coding</span>

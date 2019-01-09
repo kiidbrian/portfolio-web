@@ -223,21 +223,27 @@ $(function () {
         
         var data_string = $('.contact form').serialize();
         
-    
-        $.ajax({
-            type: "POST",
-            url: $('.contact form').attr('action'),
-            data: data_string,
-            
-            success: function (message) {
-                if (message === 'SENDING') {
-                    $('.msg_success').fadeIn('slow');
-                } else {
-                    $('.msg_error').fadeIn('slow');
-                }
-            }
-            
+
+        var $form = $(this);
+        console.log($form);
+        $.post($form.attr("action"), $form.serialize()).then(function() {
+            alert("Thank you!");
         });
+    
+        // $.ajax({
+        //     type: "POST",
+        //     url: $('.contact form').attr('action'),
+        //     data: data_string,
+            
+        //     success: function (message) {
+        //         if (message === 'SENDING') {
+        //             $('.msg_success').fadeIn('slow');
+        //         } else {
+        //             $('.msg_error').fadeIn('slow');
+        //         }
+        //     }
+            
+        // });
         
         return false;
         
