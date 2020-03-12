@@ -21,6 +21,58 @@ const PortfolioSection = (props) => {
                 <div className="col-xs-12 col-sm-6 col-md-4 grid-item coding">
                     <div className="box">
                         <div className="my__img">
+                            <img src="assets/images/cowryllc.png" alt='cowryllc' />
+                        </div>
+                        <div className="boxContent">
+                            <a href="https://www.cowryllc.com" target="_blank" rel="noopener noreferrer">
+                                <div className="display-table">
+                                    <div className="display-table-cell">
+                                        <span className="post">coding</span>
+                                        <h3 className="title">Cowry LLC</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-xs-12 col-sm-6 col-md-4 grid-item coding">
+                    <div className="box">
+                        <div className="my__img">
+                            <img src="assets/images/kiddiriffic.png" alt='kiddiriffic' />
+                        </div>
+                        <div className="boxContent">
+                            <a href="http://3.121.228.130" target="_blank" rel="noopener noreferrer">
+                                <div className="display-table">
+                                    <div className="display-table-cell">
+                                        <span className="post">coding</span>
+                                        <h3 className="title">Kiddiriffic</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-xs-12 col-sm-6 col-md-4 grid-item training">
+                    <div className="box">
+                        <div className="my_img" data-mfp-src="assets/images/ipmc.png">
+                            <img src="assets/images/ipmc.png" alt=''/>
+                            <div className="boxContent">
+                                <div className="display-table">
+                                    <div className="display-table-cell">
+                                        <span className="post">Training</span>
+                                        <h3 className="title">IPMC</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-xs-12 col-sm-6 col-md-4 grid-item coding">
+                    <div className="box">
+                        <div className="my__img">
                             <img src="assets/images/portfolio/red.png" alt='' />
                         </div>
                         <div className="boxContent">
