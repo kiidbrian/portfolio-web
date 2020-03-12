@@ -62,7 +62,7 @@ class FooterSection extends React.Component {
                                     <div className="content">
                                         <span className="pe-7s-call pe-3x pe-va icon"></span>
                                         <div>
-                                            <p>+233 208 953 410</p>
+                                            <p>+233 240 158 393</p>
                                         </div>
                                     </div>
                                 </div>
